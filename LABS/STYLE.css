@@ -9,7 +9,7 @@ body {
 #form-container {
     border: 3px solid;
     border-color: rgb(67, 163, 230);
-    margin: auto;
+    margin: 0 auto;
     width: 250px;
     position: center center;
     color: white;
@@ -25,5 +25,7 @@ textarea {
     width: 50%;
     padding: 0.5rem;
     background-color: rgb(67, 163, 230);
-    border-radius: 5px;
+    border-radius: 12px;
+    border: none;
+    color: white;
   }
