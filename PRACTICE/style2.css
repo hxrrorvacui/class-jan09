@@ -1,0 +1,16 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
+
+* {
+    margin:0 ato;
+    padding:0;
+}
+
+body { 
+    font-family: "Roboto", sans sans-serif;
+    font: size 16px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
