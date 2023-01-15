@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            animation-name: wutang;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-direction: reverse;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+            position: 
+        }
+        .wutang {
+            background-color: pink;
+            width: 100px;
+            height: 100px;
+        }
+        @keyframes .wutang {
+        0%, 100% {
+                background: pink;
+                width: 100px;
+                height: 100px;
+            }
+        }
+        25%, 75% {
+                width: 200px;
+                height: 200px;
+                background: lavender;
+            }
+        50%, 100% {
+                width: 20px;
+                height: 20px;
+                background: yellow;
+            }
+    </style>
+</head>
+<body>
+   <div class="wutang"></div>
+</body>
+</html>
