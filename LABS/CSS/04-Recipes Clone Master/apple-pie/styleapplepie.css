@@ -14,14 +14,14 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     color: white;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .paragraph1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     margin: 4rem;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 22px;
 }
 
