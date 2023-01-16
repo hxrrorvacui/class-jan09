@@ -12,7 +12,7 @@ if (age <= 5) {
 
 
 // // Conditionals 2 –
-const name = prompt("Your name here");
+const userName = prompt("Your name here");
 const action = prompt ("What type of action would you like to choose from:")
 
 switch(action) {
