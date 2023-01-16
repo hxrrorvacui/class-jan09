@@ -3,7 +3,8 @@ let num;
 num = 1;
 console.log(num+1);
 console.log(valor += 1);
-console.log(num++);
+num++; 
+console.log(num);
 
 
 // Exercise 2
