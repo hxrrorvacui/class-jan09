@@ -1,0 +1,64 @@
+// Iteration 2: LAB functions & arrays
+const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
+const findLongestWord = (wordArray) => {
+    if (wordArray.length === 0) return null;
+    let longestWord = ""; 
+    for (let i=0; i < wordArray.length; i++) {
+      if(longestWord.length < wordArray[i].length) longestWord = wordArray[i]
+    }
+    return longestWord;
+  };
+  console.log(`The longest word on this array is ${findLongestWord(words)}`)
+
+// Iteration 3: LAB functions & arrays
+const sumNumbers = (numbersArray) => {
+    // numbersArray = nombre del parámetro
+    let sum = 0;
+    for (let i = 0; i < numbersArray.length; i++) {
+        sum = sum + numbersArray[i];
+    }
+    return sum;
+}
+console.log(`la suma de todos las posiciones numéricas es ${sumNumbers(numbers)}`)
+    // versión 2 del mismo ejercicio: 
+const sumNumbers = (numbersArray) => {
+    let sum = 0;
+    for (let i = 0; i < numbersArray.length; i++) {
+        sum += numbersArray[i];
+    }
+    return sum;
+}
+console.log(`la suma de todos las posiciones numéricas es ${sumNumbers(numbers)}`)
+
+// Iteration 3.1: 
+const mixedArr = [6, 12, 'miami', 1, true, 'barca', '200', 'lisboa', 8, 10];
+
+const sum = (mixedArray) => {
+        // this is the declared variable:
+    let totalSumOfMixedArrayPositions = 0;
+        // this is the loop:
+    for (let i = 0; 1 < mixedArray.length; i++) {
+        // these are the strings:
+      if (typeof mixedArray[i] === "string"){
+        let string = mixedArray[i].split("");
+        for (let i = 0; i < string.length; i++) {
+            totalSumOfMixedArrayPositions += string[i.length];
+        }
+        }
+        // this is the boolean
+        else if (mixedArray[i] === true)    {
+            totalSumOfMixedArrayPositions += 1
+        }
+        else {
+            totalSumOfMixedArrayPositions += mixedArray[i]
+        }
+        return totalSumOfMixedArrayPositions
+}
+console.log(`The sum of this mixed array is: ${sum(mixedArray)}`)
+
+// Iteration 4:
+const numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
+const averageNumbers = (numbers) => {
+    return sumNumbers(numbers) / numbers.length
+}
+console.log(`The average of this array is: ${averageNumbers(numbersAvg)}`)

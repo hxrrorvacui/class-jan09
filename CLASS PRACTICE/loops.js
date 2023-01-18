@@ -11,7 +11,7 @@ let result = 0;
 for (let index = 0; index <= 100; index++) {
     result += index
 }
-console.log(`Ttoal de suma de los numeros del 1 al 100: ${result}`)
+console.log(`Total de suma de los numeros del 1 al 100: ${result}`)
 
 // Loop 2:
 const numbersX = [0.02, 99, 71, 33, 15, 999, 5];
