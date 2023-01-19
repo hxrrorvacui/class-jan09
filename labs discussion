@@ -62,3 +62,30 @@ const averageNumbers = (numbers) => {
     return sumNumbers(numbers) / numbers.length
 }
 console.log(`The average of this array is: ${averageNumbers(numbersAvg)}`)
+
+// MOVIES LAB DISCUSSION
+
+// // diego version ITERATION 1: 
+// function getAllDirectors(movies) {
+//     const directorsListUnfiltered = movies.map((movie) => movie.director);
+
+//     return directorsFiltered;
+    
+//     // bono
+//     const directorsListFiltered = directorsListUnifiltered.filter((director, index) => { return directorsListUnfiltered.indexOf(director) === index })
+
+//     return directorsListUnfiltered;
+// }
+// console.table(getAllDirectors(movies));
+
+// diego version ITERATION 2:
+//   //diego version:
+//     const stevenDramaFilteredMovies = movies.filter((movies) => {
+//     return (
+//         movie.director === 'Steven Spielberg' && movie.genre.includes("Drama") 
+//     );
+//     }); 
+//     return  stevenDramaFilteredMovies.length; 
+//     // falta abrir un bracket //
+  
+// console.log(howManyMovies(movies));
