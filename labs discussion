@@ -1,3 +1,5 @@
+///////////// LAB functions & arrays //////////////////////
+
 // Iteration 2: LAB functions & arrays
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 const findLongestWord = (wordArray) => {
@@ -63,29 +65,44 @@ const averageNumbers = (numbers) => {
 }
 console.log(`The average of this array is: ${averageNumbers(numbersAvg)}`)
 
-// MOVIES LAB DISCUSSION
+////////////////////* MOVIES LAB DISCUSSION *////////////////////////
 
 // // diego version ITERATION 1: 
-// function getAllDirectors(movies) {
-//     const directorsListUnfiltered = movies.map((movie) => movie.director);
+ function getAllDirectors(movies) {
+     const directorsListUnfiltered = movies.map((movie) => movie.director);
 
-//     return directorsFiltered;
+    return directorsFiltered;
     
-//     // bono
-//     const directorsListFiltered = directorsListUnifiltered.filter((director, index) => { return directorsListUnfiltered.indexOf(director) === index })
+     // bono
+     const directorsListFiltered = directorsListUnifiltered.filter((director, index) => { return directorsListUnfiltered.indexOf(director) === index })
 
-//     return directorsListUnfiltered;
-// }
-// console.table(getAllDirectors(movies));
+     return directorsListUnfiltered;
+ }
+ console.table(getAllDirectors(movies));
 
-// diego version ITERATION 2:
-//   //diego version:
-//     const stevenDramaFilteredMovies = movies.filter((movies) => {
-//     return (
-//         movie.director === 'Steven Spielberg' && movie.genre.includes("Drama") 
-//     );
-//     }); 
-//     return  stevenDramaFilteredMovies.length; 
-//     // falta abrir un bracket //
+// diego version ITERATION 2: 
+    const stevenDramaFilteredMovies = movies.filter((movies) => {
+    return (
+        movie.director === 'Steven Spielberg' && movie.genre.includes("Drama")      );
+    });     return  stevenDramaFilteredMovies.length; 
+    // falta abrir un bracket // PLEASE CHECK
   
-// console.log(howManyMovies(movies));
+ console.log(howManyMovies(movies));
+
+// diego version ITERATION 3:
+const scoresAverage = (movies) => {
+    if (movies.length === 0) return 0;
+    const totalScore = movies.reduce((accumulator, currentValue) => {
+        if (currentValue.score) {
+            return accumulator = currentValue.score;
+        }  
+        else  {
+            return accumulator;
+        }    
+    }, 0);
+    const averageScoring = (totalScore / movies.length).toFixed(2); 
+    // toFixed(2) para tener dos decimales //
+
+    return Number(averageScoring);
+};
+console.log(scoresAverage(movies));

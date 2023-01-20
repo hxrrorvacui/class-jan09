@@ -32,24 +32,6 @@ function scoresAverage(moviesArray) {
 }
 console.log(scoresAverage([8, 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, 8.7, 8.8, 8.9, 9]));
 
-// diego version:
-const scoresAverage = (movies) => {
-    if (movies.length === 0) return 0;
-    const totalScore = movies.reduce((accumulator, currentValue) => {
-        if (currentValue.score) {
-            return accumulator = currentValue.score;
-        }  
-        else  {
-            return accumulator;
-        }    
-    }, 0);
-    const averageScoring = (totalScore / movies.length).toFixed(2); 
-    // toFixed(2) para tener dos decimales //
-
-    return Number(averageScoring);
-};
-console.log(scoresAverage(movies));
-
 
 // Iteration 4: Drama movies - Get the average of Drama Movies
 function dramaMoviesScore(moviesArray) => {}
