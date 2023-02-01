@@ -8,7 +8,6 @@ import FooterC from "./components/FooterC.vue";
 </script>
 
 <template>
-
   <main>
     <NavBar />
     <IterationDos />
@@ -18,5 +17,3 @@ import FooterC from "./components/FooterC.vue";
     <FooterC />
   </main>
 </template>
-
-<style scoped></style>

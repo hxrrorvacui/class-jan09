@@ -1,10 +1,10 @@
 <template>
   <div>
     <ul>
-      <li v-for="post in posts" :key="post.title">
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.description }}</p>
-        <p>{{ post.content }}</p>
+      <li v-for="bands in bands" :key="bands.title">
+        <h2>{{ bands.title }}</h2>
+        <p>{{ bands.description }}</p>
+        <p>{{ bands.content }}</p>
       </li>
     </ul>
   </div>
@@ -13,7 +13,7 @@
 import { ref } from "vue";
 export default {
   setup() {
-    const posts = ref([
+    const bands = ref([
       {
         title: "Jane's Addiction",
         description: "Best song",
@@ -30,7 +30,7 @@ export default {
         content: "Child's play",
       },
     ]);
-    return { posts };
+    return { bands };
   },
 };
 </script>
