@@ -46,10 +46,10 @@ const buttonText = ref("Click Me");
 <style scoped>
 a,
 a img {
-  width: 50%;
+  width: 20%;
 }
 nav {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,6 +60,10 @@ nav ul {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  padding: 0 5rem;
+  padding: 0 3rem;
+}
+button {
+  border-radius: 15px 15px 15px 15px;
+
 }
 </style>

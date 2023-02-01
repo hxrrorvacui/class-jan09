@@ -1,8 +1,8 @@
 <template>
   <!-- ex02 - part 001 -->
   <div>
-    <p>Resultado {{ 2 + 2 }}</p>
-    <p>{{ 2 + 2 }}</p>
+    <p>lucky number</p>
+    <p>{{ 2 + 5 }}</p>
   </div>
   <hr />
   <!-- ex02 - part 002 -->

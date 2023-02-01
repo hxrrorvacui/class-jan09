@@ -63,4 +63,7 @@ footer ul {
   justify-content: space-around;
   padding: 0 5rem;
 }
+button {
+  border-radius: 15px 15px 15px 15px;
+}
 </style>

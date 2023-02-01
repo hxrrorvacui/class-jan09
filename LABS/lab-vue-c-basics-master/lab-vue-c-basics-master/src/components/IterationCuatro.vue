@@ -25,9 +25,9 @@ export default {
         content: "The End",
       },
       {
-        title: "IAMDDB",
+        title: "Future Islands",
         description: "Best song",
-        content: "Child's play",
+        content: "Like the Moon",
       },
     ]);
     return { bands };
