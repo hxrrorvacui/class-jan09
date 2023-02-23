@@ -1,6 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import MyFirstComponent from './components/vueBasics/MyFirstComponent.vue'
+import MyFirstComponent from '/components/vueBasics/MyFirstComponent.vue'
 </script>
 
 <template>

@@ -18,12 +18,3 @@ function toggleRed() {
   background-color: black;
 }
 </style>
-
-
-
-
-
-
-
-
-
